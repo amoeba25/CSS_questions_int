@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        *{
+            color: #010100;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            padding: 1em;
+        }
+        p{
+            color: orange;
+        }
+        .sen{
+            color: green;
+        }
+        #id-select {
+            color: blue;
+        }
+
+        /* Attribute selectors */
+        a[href] {
+            color: violet;
+        }
+        a[href ="https://www.google.com/"] {
+            color: red;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h2>CSS selector example</h2>
+    <br>
+    <div>
+        <h3>The basic selectors </h3>
+        <p>Attribute selector</p>
+        <p class="sen">class selector selector</p>
+        <p class="sen" id="id-select">id selector</p>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h3>Attribute selectors</h3>
+        <a href="https://www.freecodecamp.org/">The best place to learn to code for free!</a> <br>
+        <a href="https://www.google.com/">The best place to learn for free!</a>
+
+    </div>
+</body>
+</html>
